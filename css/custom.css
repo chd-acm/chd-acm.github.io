@@ -1,0 +1,29 @@
+.article-sort-item.no-article-cover {
+  height: 20px;
+}
+
+.article-sort-item-time {
+  color: #858585;
+  font-size: 95%;
+  display: inline-block;
+  width:100px;
+  margin-right: 20px;
+}
+
+.article-sort-item-title {
+  display: inline;
+}
+
+#article-container, p {
+  font-size: 1.1em;
+}
+
+/* 侧边栏最新文章标题 */
+#aside-content .aside-list > .aside-list-item .content > .title {
+  height: 19px;
+  overflow: hidden;
+}
+#aside-content .aside-list > .aside-list-item .content > .title:hover {
+  overflow: visible;
+  height: auto;
+}
