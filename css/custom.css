@@ -49,3 +49,8 @@
   text-align: left;
   padding: 5px 10px 16px 0;
 }
+
+div.timenode .body {
+  background-color: white !important;
+  display: block !important;
+}
