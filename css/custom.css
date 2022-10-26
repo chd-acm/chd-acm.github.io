@@ -54,3 +54,10 @@ div.timenode .body {
   background-color: white !important;
   display: block !important;
 }
+
+div.timenode .meta p {
+  font-size: 15px;
+}
+mjx-math {
+  font-size:80% !important;
+}
