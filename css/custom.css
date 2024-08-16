@@ -1,0 +1,63 @@
+.article-sort-item.no-article-cover {
+  height: 20px;
+}
+
+.article-sort-item-time {
+  color: #858585;
+  font-size: 95%;
+  display: inline-block;
+  width:100px;
+  margin-right: 20px;
+}
+
+.article-sort-item-title {
+  display: inline;
+}
+
+#article-container, p {
+  font-size: 1.1em;
+}
+
+/* 侧边栏最新文章标题 */
+#aside-content .aside-list > .aside-list-item .content > .title {
+  height: 19px;
+  overflow: hidden;
+}
+#aside-content .aside-list > .aside-list-item .content > .title:hover {
+  overflow: visible;
+  height: auto;
+}
+
+
+
+/* 友链 */
+#article-container .flink .flink-list > .flink-list-item {
+  width: calc(100% / 2 - 15px);
+  height: 70px;
+}
+#article-container .flink .flink-list > .flink-list-item a .flink-item-icon {
+  width: 48px;
+  height: 48px;
+}
+
+#article-container .flink .flink-list > .flink-list-item a .flink-item-name {
+  text-align: left;
+  font-size: 1em;
+}
+
+#article-container .flink .flink-list > .flink-list-item a .flink-item-desc{
+  text-align: left;
+  padding: 5px 10px 16px 0;
+}
+
+div.timenode .body {
+  background-color: white !important;
+  display: block !important;
+}
+
+div.timenode .meta p {
+  font-size: 15px;
+}
+mjx-math {
+  font-size:80% !important;
+}
